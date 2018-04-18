@@ -1,0 +1,17 @@
+*.iml
+*.ipr
+*.iws
+/target
+/tmp
+/lib
+/precompiled
+modules/
+.classpath
+eclipse
+.metadata
+.project
+.settings
+ajcore*
+bhj.sql
+.idea
+.ideaDataSources/

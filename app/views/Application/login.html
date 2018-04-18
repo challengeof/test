@@ -1,0 +1,44 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<style>
+  table {
+    border-collapse: collapse;
+  }
+  th, td {
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    font-size: 12px;
+    text-align: center;
+  }
+</style>
+<body>
+<table>
+  <tr>
+    <th>用户名</th>
+    <th>项目名</th>
+    <th>最后一次签到时间</th>
+    <th>最后一次签到是否迟到</th>
+    <th>签到次数</th>
+  </tr>
+#{list items:list, as:'list'}
+  <tr>
+  <td>${list[0]}</td>
+  <td>${list[1]}</td>
+  <td>${list[2]}</td>
+  <td>${list[3]}</td>
+  <td>${list[4]}</td>
+  </tr>
+#{/list}
+</table>
+</body>
+</html>
+
+<a href="@{Application.index()}">返回首页</a>
