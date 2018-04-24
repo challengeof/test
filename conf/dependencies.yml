@@ -9,3 +9,7 @@ require:
     - com.google.guava -> guava 23.0
     - org.apache.commons -> commons-lang3 3.4
     - org.aspectj -> aspectjweaver 1.8.7
+    - org.elasticsearch -> elasticsearch 5.3.0
+    - org.elasticsearch.client -> transport 5.3.0
+    - com.lmax -> disruptor 3.3.6
+    - com.google.inject -> guice 4.0

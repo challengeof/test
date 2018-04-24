@@ -12,6 +12,7 @@ import play.data.validation.Required;
 import play.data.validation.Validation;
 import play.db.jpa.NoTransaction;
 import play.mvc.*;
+import services.SearchService;
 
 import java.lang.reflect.Field;
 import java.util.Collections;
